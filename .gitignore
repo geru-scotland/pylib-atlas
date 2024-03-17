@@ -1,0 +1,152 @@
+#@author: Geru
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+*.idea*
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bat
+*gradlew
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# NDS and ARM related output files
+*.nds
+*.arm*
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+#Config files.
+.idea
+.vscode
+
+#Build folder
+/build/
+out/
+
+#Graddle
+*.gradle*
+*gradle/*
+
+#LaTeX
+LaTeX/
+
+#R
+.rHistory
+
+#Maven
+.mvn
+*mvn*
+pom.xml
+
+# Ignore all executable files without extension
+!.gitignore
+!.gitattributes
+!*/
+!*.extension
+
+#Cmake
+CMakeFiles/
+*cmake-build*
+*.idea*
+*/data/*
+*ctee
+*read
+*stee
+*scripts
+*typescript
+
+.vscode
+
+# VeV specific files
+browser_bin
+browser_gobj
+
+*/Math/test
+*/Math/cmake_install.cmake
+*/Math/CMakeCache.txt
+
+__pycache__
