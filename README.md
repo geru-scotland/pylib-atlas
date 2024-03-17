@@ -25,7 +25,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Image processing and computer vision](#-image-processing-and-computer-vision)
 - [Networking and communication](#-networking-and-communication)
 - [GUI Development](#-gui-development)
-- [Database and ORM](#-database-and-orm)
+- [Database and ORM](#%EF%B8%8F-database-and-orm)
 - [Security and authentication](#-security-and-authentication)
 - [Data Parsing and serialization](#-data-parsing-and-serialization)
 - [Testing and QA](#-testing-and-qa)
