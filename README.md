@@ -1,4 +1,9 @@
-# Pylib Atlas
+<div align="center">
+  <h1>PyAtlas</h1>
+</div>
+<div align="center">
+  <img src="images/py-atlas.png" width="400" alt="PyAtlas">
+</div>
 
 ## Welcome to my Python toolbox!
 
