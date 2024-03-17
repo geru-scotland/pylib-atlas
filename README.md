@@ -184,7 +184,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **PyYAML** | A YAML parser and emitter for Python, allowing for the serialization and deserialization of complex data structures to and from YAML, a human-friendly data serialization standard. | [PyYAML](https://pyyaml.org/) |
 | **Marshmallow** | An ORM/ODM/framework-agnostic library for converting complex data types, such as objects, to and from native Python datatypes. | [Marshmallow](https://marshmallow.readthedocs.io/en/stable/) |
 | **Protobuf** | Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data, similar to XML but smaller, faster, and simpler. | [Protobuf](https://developers.google.com/protocol-buffers) |
-
+| **pickle**       | The built-in Python library for serializing and deserializing Python object structures, turning Python objects into byte streams and vice versa. | [pickle - Python Documentation](https://docs.python.org/3/library/pickle.html) |
 
 ---
 
