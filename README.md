@@ -89,14 +89,16 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 
 ---
 
+---
+
 ## 🖼️ Image processing and computer vision
 
 | Tool | Description | Official Link |
 | ---- | ----------- | ------------- |
-| **OpenCV** | OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception. | [OpenCV](https://opencv.org/) |
-| **scikit-image** | scikit-image is a collection of algorithms for image processing in Python. It is a free software project that is heavily used in academia, industry, and research. | [scikit-image](https://scikit-image.org/) |
-| **SimpleCV** | SimpleCV is an open-source framework for building computer vision applications. It provides a consistent interface in Python for image acquisition, processing, and analysis. | [SimpleCV](http://simplecv.org/) |
-| **Mahotas** | Mahotas is a computer vision and image processing library for Python. It includes a variety of algorithms for segmentation, feature extraction, and image manipulation. | [Mahotas](https://mahotas.readthedocs.io/en/latest/) |
+| **OpenCV** | A robust library offering open-source computer vision and machine learning software. Designed to provide a common infrastructure for computer vision applications, OpenCV accelerates the use of machine perception in the commercial realm. | [OpenCV](https://opencv.org/) |
+| **scikit-image** | Part of the SciPy ecosystem, this library presents a rich collection of image processing algorithms accessible in Python. It's aimed at researchers, educators, and industry professionals alike. | [scikit-image](https://scikit-image.org/) |
+| **SimpleCV** | Offering a straightforward framework for building computer vision applications, SimpleCV simplifies image acquisition, processing, and analysis through a consistent Python interface. | [SimpleCV](http://simplecv.org/) |
+| **Mahotas** | This library serves as a comprehensive toolkit for computer vision and image processing in Python, featuring numerous algorithms for segmentation, feature extraction, and more. | [Mahotas](https://mahotas.readthedocs.io/en/latest/) |
 
 ---
 
