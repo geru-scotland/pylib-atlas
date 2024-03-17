@@ -35,7 +35,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Databases and time-series data](#-databases-and-time-series-data) 
 - [Stream processing](#-stream-processing) 
 - [Documentation tools](#-documentation-tools)
-- [Cloud, infraestructure, DevOps and deployment](#-cloud-and-infrastructure--devops-and-deployment) 
+- [Cloud, infraestructure, DevOps and deployment](#-cloud-and-infrastructure--devops-and-ci-cd) 
 
 
 
