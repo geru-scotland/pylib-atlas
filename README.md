@@ -33,6 +33,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Cryptography and hashing](#-cryptography-and-hashing)
 - [CLI Utilities](#-cli-utilities)
 - [Web scraping](#-web-scraping)
+- [Caching and in-memory databases](#-caching-and-in-memory-databases)
 - [Code quality and linters](#-code-quality-and-linters)
 - [File and data manipulation](#-file-and-data-manipulation)
 - [Environment and configuration management](#-environment-and-configuration-canagement)
@@ -169,8 +170,6 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Paramiko** | A module for Python 2.7/3.4+ that implements the SSHv2 protocol for secure (encrypted and authenticated) connections to remote machines. | [Paramiko](http://www.paramiko.org/) |
 
 
----
-
 
 ---
 
@@ -255,6 +254,20 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Selenium** | Although primarily a tool for testing web applications, Selenium can be used for scraping dynamic content that other tools can't handle as it allows for rendering JavaScript. | [Selenium](https://www.selenium.dev/) |
 | **MechanicalSoup** | A Python library for automating interaction with websites. It combines the Requests library and BeautifulSoup to simulate a browser without a graphical interface. | [MechanicalSoup](https://mechanicalsoup.readthedocs.io/en/stable/) |
 | **Puppeteer** (Pyppeteer) | A library for controlling headless Chrome or Chromium over the DevTools Protocol. Pyppeteer is the Python version, perfect for tasks requiring JavaScript rendering. | [Pyppeteer](https://github.com/pyppeteer/pyppeteer) |
+
+---
+## 💾 Caching and in-memory databases
+
+| Library      | Description                                                                                           | Official Link                       |
+| ------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| **Memcached** | A high-performance, distributed memory object caching system, intended for use in speeding up dynamic web applications by alleviating database load. | [Memcached](https://memcached.org/) |
+| **Redis**     | An open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries, and streams. | [Redis](https://redis.io/)          |
+| **pylibmc**   | A Python wrapper around the libmemcached interface, which is a client library for Memcached written in C. It's a fast and efficient way to interface with Memcached from Python. | [pylibmc](https://pypi.org/project/pylibmc/) |
+| **diskcache** | Python disk-backed cache (Django-compatible). Faster than Redis and Memcached. Pure Python. | [diskcache](http://www.grantjenks.com/docs/diskcache/) |
+| **beaker**    | A library for caching and sessions for use with web applications and stand-alone Python scripts and applications. | [beaker](https://beaker.readthedocs.io/en/latest/) |
+| **hiredis**   | A minimalistic C client library for the Redis database. `hiredis-py` is a Python wrapper for the `hiredis` C library. It provides a way to communicate with Redis directly from Python, using the C client for speed. | [hiredis-py](https://pypi.org/project/hiredis/) |
+| **aioredis**  | Asyncio (PEP 3156) Redis client library. It provides an async interface to Redis, built on top of `hiredis` and compatible with asyncio. | [aioredis](https://aioredis.readthedocs.io/) |
+| **pymemcache** | A comprehensive, fast, pure-Python memcached client. | [pymemcache](https://pypi.org/project/pymemcache/) |
 
 ---
 
