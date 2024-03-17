@@ -30,7 +30,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Web scraping](#-web-scraping)
 - [Code quality and linters](#-code-quality-and-linters)
 - [File and data manipulation](#-file-and-data-manipulation)
-- [Environment and configuration management](#-environment-and-configuration-management)
+- [Environment and configuration management](#-environment-and-configuration-canagement)
 - [Framework extensions and plugins](#-framework-extensions-and-plugins)
 - [Databases and time-series data](#-databases-and-time-series-data) 
 - [Stream processing](#-stream-processing) 
