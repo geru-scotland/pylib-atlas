@@ -14,24 +14,25 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 
 ## Table of Contents
 
-- [Web Frameworks](#web-frameworks)
-- [Machine Learning and AI](#machine-learning-and-ai)
-- [Data Science and analysis](#data-science-and-analysis)
-- [Networking and communication](#networking-and-communication)
-- [GUI Development](#gui-development)
-- [Database and ORM](#database-and-orm)
-- [Security and authentication](#security-and-authentication)
-- [Data Parsing and serialization](#data-parsing-and-serialization)
-- [Testing and QA](#testing-and-qa)
-- [Async and concurrency](#async-and-concurrency)
-- [Cryptography and hashing](#cryptography-and-hashing)
-- [CLI Utilities](#cli-utilities)
-- [Web scraping](#web-scraping)
-- [File and data manipulation](#file-and-data-manipulation)
-- [Framework extensions and plugins](#framework-extensions-and-plugins)
-- [Databases and time-series data](#databases-and-time-series-data) 
-- [Stream processing](#stream-processing) 
-- [DevOps and deployment](#devops-and-deployment) 
+- [Web Frameworks](#-web-frameworks)
+- [Machine Learning and AI](#-machine-learning-and-ai)
+- [Data Science and analysis](#-data-science-and-analysis)
+- [Image processing and computer vision](#-image-processing-and-computer-vision)
+- [Networking and communication](#-networking-and-communication)
+- [GUI Development](#-gui-development)
+- [Database and ORM](#-database-and-orm)
+- [Security and authentication](#-security-and-authentication)
+- [Data Parsing and serialization](#-data-parsing-and-serialization)
+- [Testing and QA](#-testing-and-qa)
+- [Async and concurrency](#-async-and-concurrency)
+- [Cryptography and hashing](#-cryptography-and-hashing)
+- [CLI Utilities](#-cli-utilities)
+- [Web scraping](#-web-scraping)
+- [File and data manipulation](#-file-and-data-manipulation)
+- [Framework extensions and plugins](#-framework-extensions-and-plugins)
+- [Databases and time-series data](#-databases-and-time-series-data) 
+- [Stream processing](#-stream-processing) 
+- [DevOps and deployment](#-devops-and-deployment) 
 
 
 
@@ -83,6 +84,16 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Bokeh** | A Python interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of versatile graphics, and to extend this capability with high-performance interactivity over very large or streaming datasets. | [Bokeh](https://bokeh.org/) |
 | **Dask** | An open-source library for parallel computing written in Python. Designed to scale from a single computer to a cluster, Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love. | [Dask](https://dask.org/) |
 
+---
+
+## 🖼️ Image processing and computer vision
+
+| Tool | Description | Official Link |
+| ---- | ----------- | ------------- |
+| **OpenCV** | OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception. | [OpenCV](https://opencv.org/) |
+| **scikit-image** | scikit-image is a collection of algorithms for image processing in Python. It is a free software project that is heavily used in academia, industry, and research. | [scikit-image](https://scikit-image.org/) |
+| **SimpleCV** | SimpleCV is an open-source framework for building computer vision applications. It provides a consistent interface in Python for image acquisition, processing, and analysis. | [SimpleCV](http://simplecv.org/) |
+| **Mahotas** | Mahotas is a computer vision and image processing library for Python. It includes a variety of algorithms for segmentation, feature extraction, and image manipulation. | [Mahotas](https://mahotas.readthedocs.io/en/latest/) |
 
 ---
 
@@ -127,7 +138,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Django ORM** | Django's Object-Relational Mapper; a powerful tool for bridging the gap between the high-level Python code and the low-level database query. | [Django ORM](https://docs.djangoproject.com/en/3.0/topics/db/models/) |
 | **Peewee** | A small, expressive ORM that provides a simple and intuitive way to interact with databases using Python. | [Peewee](http://docs.peewee-orm.com/en/latest/) |
 | **SQLObject** | A popular ORM that provides an object-oriented interface to your database, with tables as classes, rows as instances, and columns as attributes. | [SQLObject](http://sqlobject.org/) |
-| **Tortoise ORM** | An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django, designed for use with asyncio and Python. | [Tortoise ORM](https://tortoise-orm.readthedocs.io/en/latest/) |
+| **Tortoise ORM** | An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django, designed for use with asyncio and Python. | [Tortoise ORM](https://tortoise.github.io) |
 | **Pony ORM** | A Python ORM that provides a generator-based interface to write queries. It translates Python functions into SQL syntax and is designed for ease of use. | [Pony ORM](https://ponyorm.org/) |
 | **MongoEngine** | A Document-Object Mapper for working with MongoDB from Python. It uses a simple declarative API, similar to the Django ORM. | [MongoEngine](http://mongoengine.org/) |
 | **Django REST Framework** | A powerful and flexible toolkit for building Web APIs on top of Django, including ORM capabilities for working with databases through RESTful APIs. | [Django REST Framework](https://www.django-rest-framework.org/) |
