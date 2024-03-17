@@ -145,7 +145,6 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Authlib** | A comprehensive, ready-to-use library for OAuth 1, OAuth 2, OpenID clients, JWT, and other authentication protocols. | [Authlib](https://authlib.org/) |
 | **python-social-auth** | A social authentication/registration mechanism with support for several frameworks and auth providers. | [python-social-auth](https://python-social-auth.readthedocs.io/en/latest/) |
 | **Passlib** | A password hashing library for Python, providing over 30 schemes and a simple framework for managing existing password hashes. | [Passlib](https://passlib.readthedocs.io/en/stable/) |
-| **Cryptography** | A package designed to expose cryptographic primitives and recipes to Python developers. | [Cryptography](https://cryptography.io/en/latest/) |
 | **Paramiko** | A module for Python 2.7/3.4+ that implements the SSHv2 protocol for secure (encrypted and authenticated) connections to remote machines. | [Paramiko](http://www.paramiko.org/) |
 
 
@@ -269,13 +268,14 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 
 ## 🗄️ Databases and time-series data
 
-| Tool | Description | Official Link |
-| ---- | ----------- | ------------- |
+| Tool           | Description | Official Link |
+|----------------| ----------- | ------------- |
 | **Prometheus** | An open-source system monitoring and alerting toolkit originally built at SoundCloud, now part of the Cloud Native Computing Foundation. It's focused on reliability and scalability, handling multi-dimensional data collected over time. | [Prometheus](https://prometheus.io/) |
-| **InfluxDB** | An open-source time series database designed to handle high write and query loads. It is a component of the TICK stack. | [InfluxDB](https://www.influxdata.com/) |
-| **SQLite** | A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. | [SQLite](https://www.sqlite.org/index.html) |
+| **InfluxDB**   | An open-source time series database designed to handle high write and query loads. It is a component of the TICK stack. | [InfluxDB](https://www.influxdata.com/) |
+| **SQLite**     | A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. | [SQLite](https://www.sqlite.org/index.html) |
 | **PostgreSQL** | A powerful, open source object-relational database system with over 30 years of active development. | [PostgreSQL](https://www.postgresql.org/) |
-| **MongoDB** | A general purpose, document-based, distributed database built for modern application developers and for the cloud era. | [MongoDB](https://www.mongodb.com/) |
+| **MongoDB**    | A general purpose, document-based, distributed database built for modern application developers and for the cloud era. | [MongoDB](https://www.mongodb.com/) |
+| **GraphQL**    | A query language for APIs and a runtime for executing those queries by using a type system you define for your data. It enables declarative data fetching, allowing clients to specify exactly what data they need.	| [GraphQL](https://graphql.org)|
 
 
 ---
