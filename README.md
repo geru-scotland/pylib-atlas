@@ -28,11 +28,14 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Cryptography and hashing](#-cryptography-and-hashing)
 - [CLI Utilities](#-cli-utilities)
 - [Web scraping](#-web-scraping)
+- [Code quality and linters](#-code-quality-and-linters)
 - [File and data manipulation](#-file-and-data-manipulation)
+- [Environment and configuration management](#-environment-and-configuration-management)
 - [Framework extensions and plugins](#-framework-extensions-and-plugins)
 - [Databases and time-series data](#-databases-and-time-series-data) 
 - [Stream processing](#-stream-processing) 
-- [DevOps and deployment](#-devops-and-deployment) 
+- [Documentation tools](#-documentation-tools)
+- [Cloud, infraestructure, DevOps and deployment](#-cloud-and-infrastructure--devops-and-deployment) 
 
 
 
@@ -248,6 +251,18 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 
 ---
 
+## 🔍 Code quality and linters
+
+| Tool | Description | Official Link |
+| ---- | ----------- | ------------- |
+| **Flake8** | A python tool that glues together `pyflakes`, `pycodestyle`, and `mccabe` scripts to check the quality of Python code. | [Flake8](https://flake8.pycqa.org/en/latest/) |
+| **Black** | The uncompromising Python code formatter. By using it, you delegate the responsibility of code formatting to Black, keeping the code style consistent. | [Black](https://black.readthedocs.io/en/stable/) |
+| **isort** | A Python utility / library to sort imports alphabetically and automatically separate them into sections and by type. | [isort](https://pycqa.github.io/isort/) |
+| **Pylint** | A tool that checks for errors in Python code, tries to enforce a coding standard, and looks for code smells. | [Pylint](https://www.pylint.org/) |
+| **Mypy** | An optional static type checker for Python, aiming to combine the benefits of dynamic (or "duck") typing and static typing. | [Mypy](http://mypy-lang.org/) |
+
+---
+
 ## 📂 File and data manipulation
 
 | Library | Description | Official Link |
@@ -259,6 +274,18 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **json** | The built-in JSON library for Python. It can parse JSON from strings or files and can convert dictionaries into JSON strings. | [json](https://docs.python.org/3/library/json.html) |
 | **PyPDF2** | A library capable of splitting, merging together, cropping, and transforming the pages of PDF files. | [PyPDF2](https://pypdf2.readthedocs.io/en/latest/) |
 | **xlrd/xlwt** | Libraries for reading data and formatting information from Excel files in the historic .xls format. | [xlrd](https://xlrd.readthedocs.io/en/latest/) / [xlwt](https://xlwt.readthedocs.io/en/latest/) |
+
+---
+
+## 🌍 Environment and configuration canagement
+
+| Tool | Description | Official Link |
+| ---- | ----------- | ------------- |
+| **dotenv** | Loads environment variables from a `.env` file into `process.env`, making it easy to manage environment-specific configurations. | [dotenv](https://pypi.org/project/python-dotenv/) |
+| **virtualenv** | A tool to create isolated Python environments. It can create environments with their own installation directories, that can have different Python versions and packages installed. | [virtualenv](https://virtualenv.pypa.io/en/latest/) |
+| **pipenv** | Aims to bring the best of all packaging worlds to the Python world. It automatically creates and manages a virtualenv for your projects and adds/removes packages from your `Pipfile` as you install/uninstall packages. | [pipenv](https://pipenv.pypa.io/en/latest/) |
+| **Poetry** | A tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. | [Poetry](https://python-poetry.org/) |
+| **Conda** | An open-source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs, and updates packages and their dependencies. | [Conda](https://conda.io/) |
 
 ---
 
@@ -300,14 +327,34 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **Apache Pulsar** | A cloud-native, distributed messaging and streaming platform originally created at Yahoo! It's designed to provide a highly scalable, durable, and secure event streaming platform. | [Apache Pulsar](https://pulsar.apache.org/) |
 | **Redis Streams** | A new data type introduced in Redis 5.0, which provides a series of features that make it possible to handle streams of data directly within Redis. | [Redis Streams](https://redis.io/topics/streams-intro) |
 
+---
+
+## 📚 Documentation tools
+
+| Tool | Description | Official Link |
+| ---- | ----------- | ------------- |
+| **Swagger (OpenAPI)** | A set of tools for designing, building, and documenting RESTful APIs. It offers the Swagger Editor for designing API specifications, the Swagger UI for generating interactive API documentation, and the Swagger Codegen for generating server stubs and client libraries from an OpenAPI Specification. | [Swagger](https://swagger.io/) |
+| **Sphinx** | A tool that makes it easy to create intelligent and beautiful documentation for Python projects (or other documents consisting of multiple reStructuredText sources), originally created for the Python documentation. | [Sphinx](http://www.sphinx-doc.org/) |
+| **MkDocs** | A fast and simple static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. | [MkDocs](https://www.mkdocs.org/) |
+| **Read the Docs** | A documentation hosting platform that automates the process of building and deploying your Sphinx or MkDocs documentation after each commit or daily. It integrates well with Git, GitHub, Bitbucket, and similar platforms. | [Read the Docs](https://readthedocs.org/) |
+| **Postman Documentation** | Postman allows you to generate and host beautiful, machine-readable documentation for your APIs. It offers dynamic examples and mock servers, making API testing and sharing easier. | [Postman](https://www.postman.com/product/api-documentation/) |
+| **Docusaurus** | A project for building, deploying, and maintaining open source project websites easily. It supports Markdown, documentation versioning, and features built specifically for documentation websites. | [Docusaurus](https://docusaurus.io/) |
+| **Redoc** | An open-source tool that can serve as an alternative to Swagger UI. It's React-based and offers a more customizable and visually appealing way to generate interactive API documentation from OpenAPI (Swagger) Definitions. | [Redoc](https://github.com/Redocly/redoc) |
 
 ---
 
-## 🚀 DevOps and deployment
+## ☁️ Cloud and infrastructure, 🚀 DevOps and CI-CD
 
-| Library | Description | Official Link |
-| ------- | ----------- | ------------- |
+| Tool | Description | Official Link |
+| ---- | ----------- | ------------- |
+| **AWS CLI** | The Amazon Web Services command line interface is a unified tool to manage your AWS services from a terminal session on your own client. | [AWS CLI](https://aws.amazon.com/cli/) |
+| **Google Cloud SDK** | A set of tools that you can use to manage resources and applications hosted on Google Cloud. | [Google Cloud SDK](https://cloud.google.com/sdk) |
+| **Azure CLI** | Designed to make scripting easy, flexible, and powerful, it provides the same capabilities as the portal, making it an essential tool for managing Azure resources. | [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/) |
+| **Kubernetes** | An open-source system for automating deployment, scaling, and operations of application containers across clusters of hosts. | [Kubernetes](https://kubernetes.io/) |
+| **OpenShift** | A family of containerization software developed by Red Hat. It's an open source container application platform based on the Kubernetes container orchestrator for enterprise application development and deployment. | [OpenShift](https://www.openshift.com/) |
+| **Puppet** | A software configuration management tool which includes its own declarative language to describe system configuration. | [Puppet](https://puppet.com/) |
 | **Docker** | An open platform for developing, shipping, and running applications, Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. | [Docker](https://www.docker.com/) |
+| **Docker Compose** | A tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services. | [Docker Compose](https://docs.docker.com/compose/) |
 | **Kubernetes** | An open-source system for automating deployment, scaling, and management of containerized applications. | [Kubernetes](https://kubernetes.io/) |
 | **Ansible** | An open-source automation tool, or platform, used for IT tasks such as configuration management, application deployment, intra-service orchestration, and provisioning. | [Ansible](https://www.ansible.com/) |
 | **Fabric** | A high-level Python library designed to execute shell commands remotely over SSH, facilitating application deployment and system administration tasks. | [Fabric](https://www.fabfile.org/) |
