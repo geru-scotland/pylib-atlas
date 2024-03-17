@@ -37,6 +37,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 - [Code quality and linters](#-code-quality-and-linters)
 - [File and data manipulation](#-file-and-data-manipulation)
 - [Environment and configuration management](#-environment-and-configuration-canagement)
+- [Game development](#-game-development)
 - [Framework extensions and plugins](#%EF%B8%8F-framework-extensions-and-plugins)
 - [Databases and time-series data](#%EF%B8%8F-databases-and-time-series-data) 
 - [Stream processing](#-stream-processing) 
@@ -307,6 +308,19 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **pipenv**     | Aims to bring the best of all packaging worlds to the Python world. It automatically creates and manages a virtualenv for your projects and adds/removes packages from your `Pipfile` as you install/uninstall packages. | [pipenv](https://pipenv.pypa.io/en/latest/)         |
 | **Poetry**     | A tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.                                               | [Poetry](https://python-poetry.org/)                |
 | **Conda**      | An open-source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs, and updates packages and their dependencies.                            | [Conda](https://conda.io/)                          |
+
+---
+
+## 🎮 Game development
+
+| Library      | Description                                                                                                                                                                                                                                                                                | Official Link                                |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| **Pygame**   | A set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.                                                                                                                      | [Pygame](https://www.pygame.org/)            |
+| **Arcade**   | A modern Python framework for crafting games with compelling graphics and sound. Open source and easy to use, it's geared towards teaching programming concepts through game development.                                                                                                  | [Arcade](https://arcade.academy/)            |
+| **Panda3D**  | An open-source, completely free-to-use engine for realtime 3D games, visualizations, simulations, experiments — you name it! Its rich feature set readily tailors to your specific workflow and development needs.                                                                         | [Panda3D](https://www.panda3d.org/)          |
+| **PyOpenGL** | The most common cross platform Python binding to OpenGL and related APIs. It provides access to the OpenGL library for creating 2D and 3D graphics.                                                                                                                                        | [PyOpenGL](http://pyopengl.sourceforge.net/) |
+| **Kivy**     | An open source Python library for developing multitouch applications. It's cross-platform (Linux/OS X/Windows/Android/iOS) and released under the MIT license. Though not exclusively for games, it's used widely in game development due to its extensive support for gestures and touch. | [Kivy](https://kivy.org/)                    |
+| **Ren'Py**   | A visual novel engine that helps you use words, images, and sounds to tell interactive stories that run on computers and mobile devices. It's great for both beginning and professional creators, and it supports easy creation of visual novels and life simulation games.                | [Ren'Py](https://www.renpy.org/)             |
 
 ---
 
