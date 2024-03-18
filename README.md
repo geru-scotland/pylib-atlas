@@ -231,6 +231,15 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 | **OpenSSL**          | A robust, full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. The `pyOpenSSL` library is a thin wrapper around (a subset of) the OpenSSL library. | ⭐`853k` | [pyOpenSSL](https://github.com/pyca/pyopenssl)            |
 
 
+
+## 🔌 Dependency Injection
+
+| Tool                    | Description                                                                                                             | Stars   | GitHub                                                                        |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------|
+| **Wireup**              | A concise, powerful, and type-safe Python DI library, focused on developer experience, ease of use, and type safety     | ⭐`51`   | [Wireup](https://github.com/maldoinc/wireup)                                  |
+| **Dependency Injector** | A comprehensive dependency injection framework for Python, utilizing containers and providers to simplify dependencies. | ⭐`3.5k` | [Dependency Injector](https://github.com/ets-labs/python-dependency-injector) |
+
+
 ## ⌨️ CLI Utilities
 
 | Library      | Description                                                                                                                                                                                        | Official Link                                               |
@@ -299,7 +308,7 @@ As I continue to discover and learn about new tools and libraries, I plan to ext
 
 ---
 
-## 🌍 Environment and configuration canagement
+## 🌍 Environment and configuration management
 
 | Tool           | Description                                                                                                                                                                                                              | Official Link                                       |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
